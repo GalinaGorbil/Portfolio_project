@@ -17,6 +17,7 @@ h1 {
     font-family: var(--heading-font-family);
     font-weight: bold;
     font-size: 96px;
+    line-height: 1.5;
         }
 
 h2 {
@@ -46,7 +47,7 @@ font-weight: 700;
 }
 
 .hero h2 {
-    line-height: 2;
+    line-height: 1.5;
     font-weight: normal;
        font-size: 24px;
 }
@@ -77,6 +78,20 @@ line-height: 27px;
 }
 
 @media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 43px;
+       
+    }
+
+    .hero {
+        
+        padding: 80px 20px;
+    }
     .project-description {
         padding: 0;
         text-align: center;
