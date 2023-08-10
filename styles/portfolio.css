@@ -95,6 +95,21 @@ font-size: 18px;
 font-family: var(--default-heading-font-family);
 }
 
+.about-section h3 {
+    text-align: center; 
+    padding:  20px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--default-heading-font-family);
+}
+
+.about-section p {
+    text-align: center; 
+    font-size: 14px;
+    font-family: var(--default-heading-font-family);
+
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
