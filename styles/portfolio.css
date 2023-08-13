@@ -71,7 +71,7 @@ p {
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero p {
     margin: 0;
@@ -137,7 +137,6 @@ font-family: var(--default-heading-font-family);
 }
 
 .about-section p {
-    text-align: center; 
     font-size: 14px;
     font-family: var(--default-heading-font-family);
 
@@ -156,7 +155,7 @@ footer .contact-box {
     margin: 0;
    }
 
-footer h4 {
+footer h3 {
     font-family: var(--heading-font-family);
     font-size: 48px;
 }
@@ -197,7 +196,7 @@ footer .social-links a:hover {
        
     }
 
-   footer h4 {
+   footer h3 {
         font-size: 26px;
     }
 
@@ -205,10 +204,7 @@ footer .social-links a:hover {
         font-size: 17px;
     }
 
-    .hero {
-        
-        padding: 80px 20px;
-    }
+   
     .project-description {
         padding: 0;
         text-align: center;
